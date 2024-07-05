@@ -1,3 +1,7 @@
 export default function Footer() {
-  return <footer className="cont bg-green-400 ">Footer</footer>;
+  return (
+    <footer className=" bg-white pt-[140px]">
+      <div className="cont">Footer</div>
+    </footer>
+  );
 }

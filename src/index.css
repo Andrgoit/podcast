@@ -18,6 +18,9 @@
       )
       format("truetype");
 }
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: #ffffff;
@@ -27,6 +30,6 @@ body {
 
 @layer utilities {
   .cont {
-    @apply max-w-[1190px] px-4 mx-auto;
+    @apply mx-auto px-4 flex  max-w-[1190px];
   }
 }

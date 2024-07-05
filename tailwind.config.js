@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        subscribeButton: "3px 3px 0 rgba(0, 0, 0, 0.25)",
+      },
+    },
   },
   plugins: [],
 };
