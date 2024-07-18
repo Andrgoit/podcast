@@ -14,7 +14,7 @@ export default function CoverItem({ item }) {
   } = item;
 
   return (
-    <div className="w-[373px] h-[373px]  rounded-xl overflow-hidden">
+    <div className="h-[373px] w-[373px] overflow-hidden rounded-xl">
       <div
         style={{
           background: `url(${img})`,
@@ -24,10 +24,10 @@ export default function CoverItem({ item }) {
           width: "100%",
           height: "100%",
         }}
-        className=" flex justify-center items-end text-center pb-5 relative"
+        className="relative flex items-end justify-center pb-5 text-center"
       >
-        <span className=" text-[#81ADC8] font-bold text-4xl">{title}</span>
-        <div className=" absolute top-5 right-5">
+        <span className="text-4xl font-bold text-[#81ADC8]">{title}</span>
+        <div className="absolute right-5 top-5">
           <IconsBlock
             youtube={youtube}
             spotify={spotify}

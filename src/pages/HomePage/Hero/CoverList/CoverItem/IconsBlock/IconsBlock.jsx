@@ -6,7 +6,7 @@ import Spotify from "../../../../../../assets/icons/cover/spotify.svg?react";
 
 export default function IconsBlock({ googlePodcast, spotify, youtube }) {
   return (
-    <div className="flex gap-[10px] flex-row">
+    <div className="flex flex-row gap-[10px]">
       {googlePodcast && (
         <Link to={googlePodcast}>
           <GPodcast />

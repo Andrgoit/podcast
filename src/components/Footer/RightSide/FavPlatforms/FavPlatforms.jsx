@@ -5,7 +5,7 @@ import Youtube from "../../../../assets/icons/footer/y.svg?react";
 
 export default function FavPlatforms() {
   return (
-    <div className="flex flex-col gap-7 w-[373px]">
+    <div className="flex w-[373px] flex-col gap-7">
       <p className="text-[#4D4D4D]">Listen to episodes on your fav platform:</p>
       <ul className="flex justify-between">
         <li>

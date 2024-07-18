@@ -4,7 +4,7 @@ import RightSide from "./RightSide/RightSide";
 
 export default function Footer() {
   return (
-    <footer className=" bg-white pt-[140px] pb-[80px]">
+    <footer className="bg-white pb-[80px] pt-[140px]">
       <div className="cont flex justify-between">
         <LeftSide />
         <CentralSide />
