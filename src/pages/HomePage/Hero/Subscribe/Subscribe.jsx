@@ -8,15 +8,15 @@ export default function Subscribe() {
       <img
         src={sp}
         alt="spring"
-        className=" absolute top-[70px] left-[-120px]"
+        className="absolute left-[-120px] top-[70px]"
       />
-      <img src={stars} alt="stars" className=" absolute right-16 top-[235px]" />
-      <div className="flex flex-col gap-10 max-w-[513px] items-center text-center">
-        <p className=" text-8xl font-bold text-black ">
+      <img src={stars} alt="stars" className="absolute right-16 top-[235px]" />
+      <div className="flex max-w-[513px] flex-col items-center gap-10 text-center">
+        <p className="text-8xl font-bold text-black">
           Your Daily
           <span className="text-[#CD4631]"> Podcast</span>
         </p>
-        <p className="w-[300px] text-[#4D4D4D] text-base">
+        <p className="w-[300px] text-base text-[#4D4D4D]">
           We cover all kinds of categories and a weekly special guest.
         </p>
         <BlackButton>subscribe</BlackButton>

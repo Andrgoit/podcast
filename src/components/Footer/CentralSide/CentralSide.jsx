@@ -17,7 +17,7 @@ export default function CentralSide() {
     <li key={id}>
       <Link
         to={href}
-        className=" font-medium text-black text-base hover:text-[#CD4631] transition-colors duration-300 leading-relaxed"
+        className="text-base font-medium leading-relaxed text-black transition-colors duration-300 hover:text-[#CD4631]"
       >
         {label}
       </Link>
@@ -28,7 +28,7 @@ export default function CentralSide() {
     <li key={id}>
       <Link
         to={href}
-        className=" font-medium text-black text-base hover:text-[#CD4631] transition-colors duration-300 leading-relaxed"
+        className="text-base font-medium leading-relaxed text-black transition-colors duration-300 hover:text-[#CD4631]"
       >
         {label}
       </Link>
