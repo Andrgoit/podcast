@@ -10,7 +10,7 @@ export default function Hero() {
       <CoverList />
       <SupportedBy />
       <div
-        className="absolute bottom-[-76px]"
+        className="absolute bottom-[-76px] z-10"
         style={{ right: "calc(50% - 50px)" }}
       >
         <img src={nodule} alt="nodule" />
