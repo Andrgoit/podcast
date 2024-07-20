@@ -1,72 +1,51 @@
-import img1 from "../../../../assets/images/perplexedMind.jpg";
-import img2 from "../../../../assets/images/womenRights.jpg";
-import img3 from "../../../../assets/images/socialClass.jpg";
-import img4 from "../../../../assets/images/teslaAutopilot.jpg";
-import img5 from "../../../../assets/images/selfConfidence.jpg";
+import Luna from "../../../../assets/icons/testimonials/avatar_Luna.png";
+import Emily from "../../../../assets/icons/testimonials/avatar_Emily.png";
+import Mia from "../../../../assets/icons/testimonials/avatar_Mia.png";
+
+import spotify from "../../../../assets/icons/testimonials/sp.svg";
+import gp from "../../../../assets/icons/testimonials/gp.svg";
+import ap from "../../../../assets/icons/testimonials/ap.svg";
 
 const items = [
   {
     id: 1,
-    img: img1,
-    title: "Perplexed Mind",
-    youtube: "#",
-    spotify: "#",
-    googlePodcast: "#",
-    href: "#",
+    avatar: Luna,
+    name: "Luna lovegood",
+    message:
+      "Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor incidi ut labore et dolore magna aliqua. ",
+    socialLink: spotify,
   },
   {
     id: 2,
-    img: img2,
-    title: "Women Rights",
-    youtube: "#",
-    spotify: "#",
-    googlePodcast: "#",
-    href: "#",
+    avatar: Emily,
+    name: "Emily Blunt",
+    message:
+      "Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor incidi ut labore et dolore magna aliqua. ",
+    socialLink: gp,
   },
   {
     id: 3,
-    img: img3,
-    title: "Social Class",
-    youtube: "#",
-    spotify: "#",
-    googlePodcast: "#",
-    href: "#",
+    avatar: Mia,
+    name: "Mia Winters",
+    message:
+      "Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor incidi ut labore et dolore magna aliqua. ",
+    socialLink: ap,
   },
   {
     id: 4,
-    img: img4,
-    title: "Tesla Autopilot",
-    youtube: "#",
-    spotify: "#",
-    googlePodcast: "#",
-    href: "#",
+    avatar: Emily,
+    name: "Emily Blunt",
+    message:
+      "Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor incidi ut labore et dolore magna aliqua. ",
+    socialLink: gp,
   },
   {
     id: 5,
-    img: img5,
-    title: "Self Confidence",
-    youtube: "#",
-    spotify: "#",
-    googlePodcast: "#",
-    href: "#",
-  },
-  {
-    id: 6,
-    img: img4,
-    title: "Tesla Autopilot",
-    youtube: "#",
-    spotify: "#",
-    googlePodcast: "#",
-    href: "#",
-  },
-  {
-    id: 7,
-    img: img2,
-    title: "Women Rights",
-    youtube: "#",
-    spotify: "#",
-    googlePodcast: "#",
-    href: "#",
+    avatar: Luna,
+    name: "Luna lovegood",
+    message:
+      "Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor incidi ut labore et dolore magna aliqua. ",
+    socialLink: spotify,
   },
 ];
 export default items;
