@@ -25,11 +25,10 @@ export default function TestimonialsList() {
         slidesPerView={2}
         freeMode={true}
         loop={true}
-        // autoplay={{
-        //   delay: 2500,
-        //   disableOnInteraction: false,
-        // }}
-        // navigation={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         modules={[FreeMode, Autoplay, Navigation, Pagination]}
         className="overflow-visible"
       >
