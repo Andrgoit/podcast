@@ -5,20 +5,33 @@
 @font-face {
   font-family: "Montserrat Alternates";
   font-style: normal;
-  src:
-    local(
-        "../src/assets/fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf"
-      )
-      format("truetype"),
-    local(
-        "../src/assets/fonts/Montserrat_Alternates/MontserratAlternates-Bold.ttf"
-      )
-      format("truetype"),
-    local(
-        "../src/assets/fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf"
-      )
-      format("truetype");
+  font-weight: 500;
+  src: local(
+      "../src/assets/fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf"
+    )
+    format("truetype");
 }
+
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 600;
+  src: local(
+      "../src/assets/fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf"
+    )
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  src: local(
+      "../src/assets/fonts/Montserrat_Alternates/MontserratAlternates-Bold.ttf"
+    )
+    format("truetype");
+}
+
 * {
   box-sizing: border-box;
 }
