@@ -1,4 +1,4 @@
-import { Hero, About, Testimonials } from "./index";
+import { Hero, About, Testimonials, Membership } from "./index";
 
 export default function HomePage() {
   return (
@@ -6,6 +6,7 @@ export default function HomePage() {
       <Hero />
       <About />
       <Testimonials />
+      <Membership />
     </>
   );
 }
