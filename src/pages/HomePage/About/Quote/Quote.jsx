@@ -1,8 +1,8 @@
-import quotes from "../../../../assets/images/quotes.png";
-import avatar from "../../../../assets/icons/about/avatar.png";
-import Spotify from "../../../../assets/icons/about/spotify.svg?react";
-import spring from "../../../../assets/icons/about/spring_small.svg";
-import spot from "../../../../assets/icons/about/spot.png";
+import quotes from "src/assets/images/quotes.png";
+import avatar from "src/assets/icons/about/avatar.png";
+import Spotify from "src/assets/icons/about/spotify.svg?react";
+import spring from "src/assets/icons/about/spring_small.svg";
+import spot from "src/assets/icons/about/spot.png";
 
 export default function Quote() {
   return (
