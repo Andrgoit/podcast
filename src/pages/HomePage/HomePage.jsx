@@ -1,4 +1,4 @@
-import { Hero, About, Testimonials, Membership } from "./index";
+import { Hero, About, Testimonials, Membership, RecentEpisodes } from "./index";
 
 export default function HomePage() {
   return (
@@ -7,6 +7,7 @@ export default function HomePage() {
       <About />
       <Testimonials />
       <Membership />
+      <RecentEpisodes />
     </>
   );
 }
