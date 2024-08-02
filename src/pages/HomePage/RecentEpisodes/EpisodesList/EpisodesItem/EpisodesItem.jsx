@@ -10,14 +10,19 @@ export default function EpisodesItem({ item }) {
     </div>
   ));
 
-  const hostElements = hostedBy.map(({ id, icon, name }) => (
-    <div
-      key={id}
-      className="[&:nth-child(2)]:relative [&:nth-child(2)]:left-[-10px]"
-    >
-      <img src={icon} alt={name} />
-    </div>
-  ));
+  const hostElements = hostedBy.map(({ id, icon, name }, idx) => {
+    const margin = "10px";
+
+    return (
+      <div
+        key={id}
+        style={{ position: "relative", left: `calc(${idx} * ${margin} * -1)` }}
+      >
+        {" "}
+        <img src={icon} alt={name} />
+      </div>
+    );
+  });
 
   return (
     <li className="flex w-[568px] flex-col gap-5 rounded-xl border-2 border-black bg-white p-4 [&:nth-child(1)]:shadow-episode [&:nth-child(4)]:shadow-episode [&:nth-child(5)]:shadow-episode">
