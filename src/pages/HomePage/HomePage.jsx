@@ -1,4 +1,14 @@
-import { Hero, About, Testimonials, Membership, RecentEpisodes } from "./index";
+import {
+  Hero,
+  About,
+  Testimonials,
+  Membership,
+  RecentEpisodes,
+  BecomeOurSponsors,
+} from "./index";
+
+import episodes from "src/data/HomePage/episodes";
+import prices from "src/data/HomePage/prices";
 
 export default function HomePage() {
   return (
@@ -7,7 +17,8 @@ export default function HomePage() {
       <About />
       <Testimonials />
       <Membership />
-      <RecentEpisodes />
+      <RecentEpisodes episodes={episodes} />
+      <BecomeOurSponsors prices={prices} />
     </>
   );
 }

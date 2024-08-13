@@ -1,9 +1,9 @@
 import nodule from "../../../assets/images/nodule_black.svg";
 import BlackButton from "src/components/BlackButton/BlackButton";
 import EpisodesList from "./EpisodesList/EpisodesList";
-import episodes from "./episodes";
+// import episodes from "../../../data/HomePage/episodes";
 
-export default function RecentEpisodes() {
+export default function RecentEpisodes({ episodes }) {
   return (
     <section className="relative bg-[#F7EDE8] py-[140px]">
       <div className="cont flex flex-col items-center gap-[100px]">
