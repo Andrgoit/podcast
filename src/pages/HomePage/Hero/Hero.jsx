@@ -1,7 +1,7 @@
 import Subscribe from "./Subscribe/Subscribe";
 import CoverList from "./CoverList/CoverList";
 import SupportedBy from "./SupportedBy/SupportedBy";
-import nodule from "../../../assets/images/nodule.svg";
+import { Nodule } from "src/components";
 
 export default function Hero() {
   return (
@@ -9,12 +9,7 @@ export default function Hero() {
       <Subscribe />
       <CoverList />
       <SupportedBy />
-      <div
-        className="absolute bottom-[-76px] z-10"
-        style={{ right: "calc(50% - 50px)" }}
-      >
-        <img src={nodule} alt="nodule" />
-      </div>
+      <Nodule />
     </section>
   );
 }
