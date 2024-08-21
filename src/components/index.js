@@ -6,6 +6,7 @@ import Footer from "../components/Footer/Footer.jsx";
 import Layout from "../components/Layout/Layout.jsx";
 import Nodule from "./Nodule/Nodule.jsx";
 import NoduleBlack from "./NoduleBlack/NoduleBlack.jsx";
+import PreFooter from "./PreFooter/PreFooter.jsx";
 
 export {
   Header,
@@ -16,4 +17,5 @@ export {
   SubscribeButtonSection,
   Nodule,
   NoduleBlack,
+  PreFooter,
 };

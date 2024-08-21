@@ -1,5 +1,5 @@
-import { Header } from "../../components";
-import { Footer } from "../../components";
+import { Header, PreFooter, Footer } from "../../components";
+
 import { Outlet } from "react-router-dom";
 
 export default function Layout() {
@@ -7,6 +7,7 @@ export default function Layout() {
     <>
       <Header />
       <Outlet />
+      <PreFooter />
       <Footer />
     </>
   );
