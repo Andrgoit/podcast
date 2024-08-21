@@ -15,7 +15,7 @@ export default function PriceList({ prices }) {
       initial={{ x: 100, opacity: 0 }}
       whileInView={{ x: 0, opacity: 1 }}
       transition={{ delay: 0.5, duration: 0.5 }}
-      // viewport={{ once: true }}
+      viewport={{ once: true }}
       className="relative flex gap-5"
     >
       {elements}
